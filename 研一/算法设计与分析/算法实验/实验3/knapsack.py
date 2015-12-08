@@ -131,6 +131,7 @@ def FPTASApproximation(items, C):
 	return r
 
 if __name__ == '__main__':
+	# n, crange
 	items, C = RandomProduce(100,1000)
 	print u'背包容量：'+str(C)
 	# 动态规划算法1
